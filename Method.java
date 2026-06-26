@@ -1,3 +1,4 @@
+import java.util.*;
 class Method{
 //     static void greet(){
 //         System.out.println("Hello,I am greet method");
@@ -18,13 +19,22 @@ class Method{
 //     add();
 // }
 
-public static String greet(){
-    String greet = "heloo";
-    return greet;
+// public static String greet(){
+//     String greet = "heloo";
+//     return greet;
+// }
+// public static void main(String[]args){
+//     System.out.println("hii");
+//     System.out.println(greet());
+//     System.out.println("bye");
+// }
+
+static void name (String username){
+    System.out.println("This is "+username);
 }
 public static void main(String[]args){
-    System.out.println("hii");
-    System.out.println(greet());
-    System.out.println("bye");
+    Scanner sc = new Scanner(System.in);
+    String n = sc.nextLine();
+    name(n);
 }
 }
