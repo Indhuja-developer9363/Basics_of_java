@@ -1,0 +1,27 @@
+import java.util.Scanner;
+
+class Car{
+    String color;
+    int maxSpeed;
+    int acceleration;
+    int tyreFriction;
+
+    Car(String color,int maxSpeed,int acceleration,int tyreFriction){
+        this.color = color;
+        this.maxSpeed = maxSpeed;
+        this.acceleration = acceleration;
+        this.tyreFriction = tyreFriction;
+    }
+}
+
+class Example{
+    public static void main(String[]args){
+        Scanner input =  new Scanner(System.in);
+        Car  car = new Car(input.next(),input.nextInt(),input.nextInt(),input.nextInt());
+        System.out.println(car.color);
+        System.out.println(car.maxSpeed);
+        System.out.println(car.acceleration);
+        System.out.println(car.tyreFriction);  
+        input.close();
+        }
+}
