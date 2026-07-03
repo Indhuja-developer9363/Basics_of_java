@@ -1,3 +1,5 @@
 Name:John
 Age:20
-Department:CSE
+Department:CSEName:John
+Age:20
+Department:CSEMarks:98
