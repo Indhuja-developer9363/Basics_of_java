@@ -7,7 +7,8 @@ public class Trycatch{
             }
         }
         catch(Exception e){
-            System.out.println(e.getMessage());
+            // System.out.println(e.getMessage());
+            System.out.println("sdfghjklertyu f");
         }
     }
 }
